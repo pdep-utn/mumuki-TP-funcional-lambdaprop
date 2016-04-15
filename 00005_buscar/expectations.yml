@@ -1,0 +1,12 @@
+---
+expectations:
+- binding: buscar
+  inspection: HasBinding
+- binding: buscar
+  inspection: HasUsage:ordenarSegun
+- binding: buscar
+  inspection: Not:HasDirectRecursion
+- binding: buscar
+  inspection: Not:HasLambda
+- binding: buscar
+  inspection: HasComposition
