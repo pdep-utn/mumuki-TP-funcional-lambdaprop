@@ -30,4 +30,4 @@ cumpleBusqueda :: Depto -> Busqueda -> Bool
 cumpleBusqueda depto = all (\filtro -> filtro depto)
 buscar busqueda ordenamiento = ordenarSegun ordenamiento.filter (flip cumpleBusqueda busqueda)
 
-personasDeEjemplo = [UnaPersona "juanchi@lambdaprop.com" [ubicadoEn ["Recoleta", "Belgrano"], (<6000).precio], UnaPersona "lolo@yahoo.com" [(=="Palermo").barrio], UnaPersona "ali_capa@hotmail.com" [cumpleRango ambientes 2 3]]
+personasDeEjemplo = [UnaPersona "juanchi@lambdaprop.com" [[ubicadoEn ["Recoleta", "Belgrano"], (<6000).precio], [(=="Villa Urquiza").barrio, (==2).ambientes], UnaPersona "lolo@yahoo.com" [[(=="Palermo").barrio]], UnaPersona "ali_capa@hotmail.com" [[cumpleRango ambientes 2 3]]]
