@@ -1,0 +1,12 @@
+---
+expectations:
+- binding: mailsDePersonasInteresadas
+  inspection: HasBinding
+- binding: mailsDePersonasInteresadas
+  inspection: Not:HasDirectRecursion
+- binding: mailsDePersonasInteresadas
+  inspection: Not:HasLambda
+- binding: mailsDePersonasInteresadas
+  inspection: Not:HasComprehension
+- inspection: HasUsage:cumpleBusqueda
+  binding: mailsDePersonasInteresadas
