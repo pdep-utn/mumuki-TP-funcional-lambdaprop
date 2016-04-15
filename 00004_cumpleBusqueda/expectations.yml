@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: cumpleBusqueda
+  inspection: HasBinding
+- binding: cumpleBusqueda
+  inspection: Not:HasDirectRecursion
