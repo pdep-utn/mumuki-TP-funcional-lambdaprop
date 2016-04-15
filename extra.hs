@@ -19,3 +19,5 @@ ordenarSegun _ [] = []
 ordenarSegun criterio (x:xs) = (ordenarSegun criterio.filter (not.criterio x)) xs ++ [x] ++ (ordenarSegun criterio.filter (criterio x)) xs
 
 between x y z = x <= z && y >= z
+
+deptosDeEjemplo = [UnDepto 3 80 7500 "Palermo", UnDepto 1 45 3500 "Villa Urquiza", UnDepto 2 50 5000 "Palermo", UnDepto 1 45 5500 "Recoleta"]

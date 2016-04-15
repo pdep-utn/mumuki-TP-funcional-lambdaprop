@@ -31,3 +31,9 @@ ordenarSegun criterio (x:xs) = (ordenarSegun criterio.filter (not.criterio x)) x
 
 between x y z = x <= z && y >= z
 ```
+
+Para que puedas hacer pruebas en la consola fácilmente te dejamos además la siguiente lista de departamentos ya preparada:
+
+```haskell
+deptosDeEjemplo = [UnDepto 3 80 7500 "Palermo", UnDepto 1 45 3500 "Villa Urquiza", UnDepto 2 50 5000 "Palermo", UnDepto 1 45 5500 "Recoleta"]
+```
