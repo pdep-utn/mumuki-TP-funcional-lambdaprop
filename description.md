@@ -3,13 +3,27 @@ Buscar departamentos para alquilar por los medios tradicionales es una tarea com
 Por eso surge una nueva página para buscar departamentos que permita al usuario personalizar sus propias búsquedas y de paso eventualmente mandarle mails con las nuevas ofertas inmobiliarias que podrían ser de su interés a ver si agarra viaje.
 
 Tenemos la información que maneja el sistema modelada de la siguiente forma:
+
 ```haskell
 type Requisito = Depto -> Bool
+
 type Busqueda = [Requisito]
-data Depto = UnDepto {ambientes::Int, superficie::Int, precio::Int, barrio::String} deriving (Show, Eq)
-data Persona = UnaPersona {mail::String, busquedas::[Busqueda]}
+
+data Depto = UnDepto {
+  ambientes::Int, 
+  superficie::Int, 
+  precio::Int, 
+  barrio::String
+  } deriving (Show, Eq)
+  
+data Persona = UnaPersona {
+  mail::String, 
+  busquedas::[Busqueda]
+  }
 ```
+
 A su vez disponemos de las siguientes funciones para usar en el desarrollo de la siguiente práctica:
+
 ```haskell
 ordenarSegun :: (a -> a -> Bool) -> [a] -> [a]
 ordenarSegun _ [] = []
