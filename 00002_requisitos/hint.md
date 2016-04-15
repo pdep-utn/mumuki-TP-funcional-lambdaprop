@@ -1,0 +1,1 @@
+Recordá que type Requisito = Depto -> Bool

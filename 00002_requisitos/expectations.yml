@@ -1,0 +1,10 @@
+---
+expectations:
+- binding: ubicadoEn
+  inspection: HasBinding
+- binding: ubicadoEn
+  inspection: HasComposition
+- binding: cumpleRango
+  inspection: HasBinding
+- binding: cumpleRango
+  inspection: HasComposition

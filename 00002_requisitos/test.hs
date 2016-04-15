@@ -1,0 +1,2 @@
+it "Un departamento de Palermo cumple con estar ubicado en [\"Villa Urquiza\", \"Palermo\", \"Colegiales\"]" $ do
+  ubicadoEn ["Villa Urquiza", "Palermo", "Colegiales"] (head deptosDeEjemplo) `shouldBe` True
