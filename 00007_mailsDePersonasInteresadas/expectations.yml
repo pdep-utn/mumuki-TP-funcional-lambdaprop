@@ -8,5 +8,5 @@ expectations:
   inspection: Not:HasLambda
 - binding: mailsDePersonasInteresadas
   inspection: Not:HasComprehension
-- inspection: HasUsage:cumpleBusqueda
-  binding: mailsDePersonasInteresadas
+- binding: mailsDePersonasInteresadas
+  inspection: HasUsage:cumpleBusqueda
