@@ -7,6 +7,4 @@ expectations:
 - binding: ordenarDeptosPorBarrio
   inspection: HasUsage:menor
 - binding: ordenarDeptosPorBarrio
-  inspection: HasUsage:length
-- binding: ordenarDeptosPorBarrio
   inspection: HasUsage:barrio
