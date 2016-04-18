@@ -5,7 +5,7 @@ it "ordenarDeptosPorBarrio ordena bien para los deptosDeEjemplo" $ do
 it "ordenarDeptosPorBarrio ordena bien para otros deptos" $ do
   ordenarDeptosPorBarrio [UnDepto 4 75 3000 "Lugano", UnDepto 2 30 2500 "La Boca", UnDepto 2 30 5000 "Belgrano", UnDepto 3 45 3000 "La Boca"] `shouldBe`
       [UnDepto {ambientes = 2, superficie = 30, precio = 5000, barrio = "Belgrano"},
-      UnDepto {ambientes = 2, superficie = 30, precio = 2500, barrio = "La Boca"},
       UnDepto {ambientes = 3, superficie = 45, precio = 3000, barrio = "La Boca"},
+      UnDepto {ambientes = 2, superficie = 30, precio = 2500, barrio = "La Boca"},
       UnDepto {ambientes = 4, superficie = 75, precio = 3000, barrio = "Lugano"}
       ]
