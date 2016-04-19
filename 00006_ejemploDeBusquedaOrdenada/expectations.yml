@@ -3,8 +3,6 @@ expectations:
 - binding: ejemploDeBusquedaOrdenada
   inspection: HasBinding
 - binding: ejemploDeBusquedaOrdenada
-  inspection: HasComposition
-- binding: ejemploDeBusquedaOrdenada
   inspection: Not:HasLambda
 - binding: ejemploDeBusquedaOrdenada
   inspection: HasUsage:buscar
