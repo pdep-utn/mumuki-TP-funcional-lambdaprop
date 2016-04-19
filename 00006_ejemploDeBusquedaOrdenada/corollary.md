@@ -1,0 +1,3 @@
+Esta función claramente no es algo que uno haga, esto no es más que una consulta a la que le pusimos un nombre para poder testearla fácil nada más.
+
+Lo interesante es que combina un montón de bloquecitos chicos que ya teníamos armado, no hay nada nuevo. Poder armar consultas complejas a partir de varias cosas más chicas, y sobre todo genéricas, da la pauta de que estamos haciendo las cosas bien :smile:
