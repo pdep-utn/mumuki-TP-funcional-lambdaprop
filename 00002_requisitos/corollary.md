@@ -1,0 +1,1 @@
+¡Muy bien! Es de particular importancia haber tenido en cuenta el tipo de los requisitos para poder usar estas funciones con facilidad más adelante.

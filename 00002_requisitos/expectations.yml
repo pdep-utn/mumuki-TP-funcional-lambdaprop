@@ -14,3 +14,7 @@ expectations:
   inspection: HasUsage:barrio
 - binding: ubicadoEn
   inspection: Not:HasDirectRecursion
+- binding: ubicadoEn
+  inspection: HasTypeSignature
+- binding: cumpleRango
+  inspection: HasTypeSignature
