@@ -12,3 +12,5 @@ expectations:
   inspection: HasUsage:between
 - binding: ubicadoEn
   inspection: HasUsage:barrio
+- binding: ubicadoEn
+  inspection: Not:HasDirectRecursion
