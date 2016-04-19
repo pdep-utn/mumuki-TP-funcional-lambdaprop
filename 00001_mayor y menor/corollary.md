@@ -1,0 +1,1 @@
+Estas dos funciones van a ser de utilidad en los próximos ejercicios, asegurate de entender bien cómo usarlas.
