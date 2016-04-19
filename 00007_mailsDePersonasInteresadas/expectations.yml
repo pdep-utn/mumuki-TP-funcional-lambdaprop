@@ -10,3 +10,5 @@ expectations:
   inspection: Not:HasComprehension
 - binding: mailsDePersonasInteresadas
   inspection: HasUsage:cumpleBusqueda
+- binding: mailsDePersonasInteresadas
+  inspection: HasComposition
