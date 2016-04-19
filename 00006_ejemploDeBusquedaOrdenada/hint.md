@@ -1,0 +1,1 @@
+Acá podés usar todas las funciones previamente definidas que necesites, incluyendo las que vienen dadas por el data Depto.
