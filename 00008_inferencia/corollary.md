@@ -1,0 +1,1 @@
+¡Barrilete cósmico! Este es un tipo complicado para inferir, es importante entender que a pesar de que menor esté aplicado con 2 parámetros en vez de 3, la función tipa, sólo puede que no retorne lo que alguien distraído hubiera esperado.
