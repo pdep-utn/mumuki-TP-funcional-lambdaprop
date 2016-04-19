@@ -7,6 +7,12 @@ expectations:
 - binding: ejemploDeBusquedaOrdenada
   inspection: HasUsage:buscar
 - binding: ejemploDeBusquedaOrdenada
-  inspection: ubicadoEn
+  inspection: HasUsage:ubicadoEn
 - binding: ejemploDeBusquedaOrdenada
-  inspection: cumpleRango
+  inspection: HasUsage:cumpleRango
+- binding: ejemploDeBusquedaOrdenada
+  inspection: HasUsage:superficie
+- binding: ejemploDeBusquedaOrdenada
+  inspection: HasUsage:precio
+- binding: ejemploDeBusquedaOrdenada
+  inspection: HasUsage:ambientes
