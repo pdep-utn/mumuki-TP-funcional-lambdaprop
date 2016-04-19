@@ -10,3 +10,5 @@ expectations:
   inspection: Not:HasLambda
 - binding: buscar
   inspection: HasComposition
+- binding: buscar
+  inspection: HasUsage:cumpleBusqueda
