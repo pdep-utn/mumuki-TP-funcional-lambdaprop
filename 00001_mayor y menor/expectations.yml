@@ -2,9 +2,5 @@
 expectations:
 - binding: menor
   inspection: HasBinding
-- binding: menor
-  inspection: HasTypeSignature
 - binding: mayor
   inspection: HasBinding
-- binding: mayor
-  inspection: HasTypeSignature
