@@ -1,1 +1,0 @@
-Tené en cuenta que estas funciones deben ser independientes del dominio. Asegurate de que el tipo declarado sea tan genérico como la definición.
