@@ -8,3 +8,7 @@ expectations:
   inspection: HasBinding
 - binding: cumpleRango
   inspection: HasComposition
+- binding: cumpleRango
+  inspection: HasUsage:between
+- binding: ubicadoEn
+  inspection: HasUsage:barrio

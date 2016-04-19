@@ -1,1 +1,1 @@
-Recordá que type Requisito = Depto -> Bool
+Recordá que ```type Requisito = Depto -> Bool``` y que existe la función ```between :: Ord a => a -> a -> a -> Bool```.
