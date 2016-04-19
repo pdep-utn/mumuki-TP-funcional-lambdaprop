@@ -16,3 +16,5 @@ expectations:
   inspection: HasUsage:precio
 - binding: ejemploDeBusquedaOrdenada
   inspection: HasUsage:ambientes
+- binding: ejemploDeBusquedaOrdenada
+  inspection: HasUsage:mayor
