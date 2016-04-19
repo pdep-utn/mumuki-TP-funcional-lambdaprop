@@ -12,3 +12,7 @@ expectations:
   inspection: HasUsage:cumpleBusqueda
 - binding: mailsDePersonasInteresadas
   inspection: HasComposition
+- binding: mailsDePersonasInteresadas
+  inspection: mail
+- binding: mailsDePersonasInteresadas
+  inspection: busquedas
