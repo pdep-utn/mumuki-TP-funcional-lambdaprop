@@ -1,4 +1,4 @@
-type Requisito = Depto -> Bool
+{-type Requisito = Depto -> Bool
 
 type Busqueda = [Requisito]
 
@@ -13,7 +13,7 @@ data Persona = UnaPersona {
   mail::String, 
   busquedas::[Busqueda]
   }
-  
+  -}
 ordenarSegun :: (a -> a -> Bool) -> [a] -> [a]
 ordenarSegun _ [] = []
 ordenarSegun criterio (x:xs) = (ordenarSegun criterio.filter (not.criterio x)) xs ++ [x] ++ (ordenarSegun criterio.filter (criterio x)) xs
