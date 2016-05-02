@@ -1,4 +1,4 @@
-type Requisito = Depto -> Bool
+{-type Requisito = Depto -> Bool
 
 type Busqueda = [Requisito]
 
@@ -21,7 +21,7 @@ ordenarSegun criterio (x:xs) = (ordenarSegun criterio.filter (not.criterio x)) x
 between x y z = x <= z && y >= z
 
 deptosDeEjemplo = [UnDepto 3 80 7500 "Palermo", UnDepto 1 45 3500 "Villa Urquiza", UnDepto 2 50 5000 "Palermo", UnDepto 1 45 5500 "Recoleta"]
-
+-}
 mayor f = compararPor (>) f 
 menor f = compararPor (<) f 
 compararPor comparador f x y = comparador (f x) (f y)
