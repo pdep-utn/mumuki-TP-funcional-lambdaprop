@@ -11,8 +11,6 @@ expectations:
 - binding: cumpleRango
   inspection: HasUsage:between
 - binding: ubicadoEn
-  inspection: HasUsage:barrio
-- binding: ubicadoEn
   inspection: Not:HasDirectRecursion
 - binding: ubicadoEn
   inspection: HasTypeSignature
